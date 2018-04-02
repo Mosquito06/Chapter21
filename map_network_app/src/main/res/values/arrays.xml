@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="actList">
+        <item>GpsProviderActivity</item>
+    </string-array>
+
+    <string-array name="titleList">
+        <item>위치 제공자</item>
+    </string-array>
+</resources>
