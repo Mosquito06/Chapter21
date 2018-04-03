@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnLotte"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:layout_weight="1"
+            android:text="롯데백화점"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnPost"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:layout_weight="1"
+            android:text="남대구우체국"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnDgit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:layout_weight="1"
+            android:text="대구아이티"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnHyundai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClick"
+            android:layout_weight="1"
+            android:text="현대백화점"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="kr.or.dgit.bigdata.map_network_app.GoogleMapPositionActivity"/>
+
+
+</LinearLayout>
